@@ -1,0 +1,32 @@
+insert mode 
+
+i- To begain insert mode at the cursor position
+l- To insert at the begining at file
+a- To append to the next word's letter
+A- To append at the end of the line
+o- To insert a new line belwo the cursor position
+O- To insert a new line above the cursor position
+
+command mode:
+
+gg: To go to the beginning of the page
+G : To go to the end of the page
+w : To move the cursor forward, word by word
+b : To move the cursor backward, word by word
+nw: To move the cursor forward to n words (5w)
+nb: To move the cursor backward to n words (5B)
+u : To undo last change (word)
+U : To undo last change (entire line)
+
+ctrl + R: To redo the changes
+yy : To copy a line.
+
+Extended mode:
+
+esc + :w To save the changes
+esc + :q To quit (without saving)
+esc + :wq To save & quit
+esc + :w! To save focefully
+esc + :wq! To save & quit focefully
+esc + :x To save & quit
+ 
